@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int n, Sum = 0;
+	cout << "\n]tNumbers are: ";
+	for (n = 100;n <= 200;n++)
+	{
+		if (n % 9 == 0)
+		{
+			cout << n << ", ";
+			Sum = Sum + n;
+		}
+	}
+	cout << "\n\tAnd the Sum=" << Sum;
+	return 0;
+}
